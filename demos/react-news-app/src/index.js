@@ -4,7 +4,10 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import { onLCP } from "web-performance";
+onLCP((metric) => {
+  console.log("LCP", metric);
+});
 ReactDOM.render(
   <React.StrictMode>
     <App />
