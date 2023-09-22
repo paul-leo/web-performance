@@ -20,10 +20,8 @@
         "web-vitals": "^1.1.2"
     },
     "scripts": {
-        "start": "norejs-ssr start",
-        "serve": "norejs-ssr serve",
-        "start:csr": "react-scripts start",
-        "build": "norejs-ssr build",
+        "start": "react-scripts start",
+        "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
     },
